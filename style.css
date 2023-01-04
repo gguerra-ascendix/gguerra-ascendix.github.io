@@ -1,0 +1,32 @@
+
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .igo_boxhead{
+    align-self: center;
+  }
+  .igo_boxhead h2{
+    text-align: center;
+  }
+  .igo_boxbody{
+    display: grid;
+    grid-template-columns: auto auto auto;  
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .igo_content{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .igo_content img{
+    width: 300px;
+    height: 230px;
+    border-radius: 2px;
+  }
